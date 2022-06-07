@@ -1,0 +1,357 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #050f38;
+	padding: 20px 0;
+}
+
+.menu {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-unitins {
+	left: -100px;
+	width: 500px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	transition: 1s;
+	text-decoration: underline;
+	font-style: italic;
+}
+footer {
+	text-align: center;
+	background: url("Imagens/bg.jpg");
+	padding: 40px 0;
+	
+}
+footer a{
+	color: white;
+}
+
+.SobreNos {
+	width: 940px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.SobreNos li {
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	height: 100%;
+}
+
+.SobreNos li:hover {
+	border-color: #C78C19;
+}
+
+.SobreNos li:active {
+	border-color: #088C19;	
+}
+
+.SobreNos li:hover h2 {
+	font-size: 34px;
+}
+
+.SobreNos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 18px;
+}
+
+.kaue {
+	background-image: url(Imagens/kaue.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.isac {
+	background-image: url(Imagens/isac.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.selfie {
+	width: 100%;
+	height: 90%;
+}
+
+.Redes-Sociais {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+fieldset {
+	margin: 10px;
+}	
+
+#mensagem {
+	margin: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	font-size: 55px;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 20px;
+}
+
+
+.carrossel {
+	padding: 3em 0;
+	background: linear-gradient(to bottom, #ffffff 0%, #000000 90%);
+
+}
+
+.carrossel-conteudo {
+	width: 940px;
+	margin: 0 auto;
+	height: 640px;
+	box-shadow: 10px 10px 10px black;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.SistemaSolar{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.planeta  {
+	width: 50%;
+	margin-top: 40px;
+	margin-bottom:40px;
+
+} 
+.planeta p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+.planeta h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+.esquerda{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin: auto;
+
+}
+.direita{
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+}
+
+.conteudodireita{
+	display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin: auto;
+}
+.conteudoesquerda{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin: auto;
+}
+
+.introSS{
+	margin: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.introSS h1{
+
+	font-style: italic;
+	font-size: 50px;
+
+}
+.introSS p{
+	font-size: 20px;
+}
+.sol h2{
+	font-size: 30px;
+	margin-top: 15px;
+}
+.sol p{
+	font-size:20px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+.ViaLactea{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right:90px;
+}
+.ViaLactea h1{
+	display: flex;
+	align-items: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 50px;
+	font-style: italic;
+
+}
+.container{
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	text-align: justify;
+	padding-left:270px;
+	font-size: 20px;
+}
+.ViaLactea img{
+	align-items:initial;
+	width: 850px;
+	height: 600px
+}
+.buraconegro{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: -80px;
+}
+.buraconegro h1{
+	display: flex;
+	align-items: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 50px;
+	font-style: italic;
+}
+.buraconegro h3{
+	font-size:30px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	margin-top: 20px;
+
+}
+.buraconegro p{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.imagensbn{
+	display: flex;
+	height: 500px;
+	width: 500px;
+	margin-top: 20px;
+}
+.buraconegro p{
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-size:20px;
+}
+video{
+	width: 750px;
+	height:500px;
+}
